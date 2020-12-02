@@ -1,9 +1,19 @@
-package slices_test
+/*
+	// This is the API you need to build for these tests. You will need to
+	// change the import path in this test to point to your code.
+
+	package max
+
+	// Max returns the maximum integer in the slice.
+	func Max(n []int) (int, error)
+*/
+
+package max_test
 
 import (
 	"testing"
 
-	slices "github.com/ardanlabs/gotraining/topics/go/algorithms/slices/max"
+	"github.com/ardanlabs/gotraining/topics/go/algorithms/slices/max"
 )
 
 const succeed = "\u2713"
@@ -29,7 +39,7 @@ func TestMax(t *testing.T) {
 			tf := func(t *testing.T) {
 				t.Logf("\tTest %d:\tWhen checking the %q state.", testID, test.name)
 				{
-					got, err := slices.Max(test.input)
+					got, err := max.Max(test.input)
 					switch test.success {
 					case true:
 						if err != nil {

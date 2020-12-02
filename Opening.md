@@ -6,6 +6,7 @@ Blog:     [GoingGo.net](https://www.ardanlabs.com/blog)
 Training: [Go](http://github.com/ardanlabs/gotraining)  
           [Service](http://github.com/ardanlabs/service)  
 Slack:    [Slack](https://invite.slack.golangbridge.org) 
+Repl:     [Playground](https://repl.it/languages/go)
 Channel:  #ultimatego 
 
 ## Quote  
@@ -19,4 +20,4 @@ Channel:  #ultimatego
 ## Tooling Installs
 Graphviz: https://www.graphviz.org/  
 go get -u github.com/rakyll/hey   : Or use ab, netcat  
-Latest Version of Go: 1.14   
+Latest Version of Go: 1.15  

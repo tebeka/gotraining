@@ -29,6 +29,7 @@ _"Design is the art of arranging code to work today, and be changeable forever."
 [Abstraction Considered Harmful](https://bravenewgeek.com/abstraction-considered-harmful/) - Tyler Treat    
 [Interface Values Are Valueless](https://www.ardanlabs.com/blog/2018/03/interface-values-are-valueless.html) - William Kennedy    
 [Interface Semantics](https://www.ardanlabs.com/blog/2017/07/interface-semantics.html) - William Kennedy    
+[Hyrum's Law](https://www.hyrumslaw.com/) - Hyrum  
 
 ## Code Review
 
@@ -36,7 +37,7 @@ _"Design is the art of arranging code to work today, and be changeable forever."
 [Polymorphism](example1/example1.go) ([Go Playground](https://play.golang.org/p/J7OWzPzV40w))  
 [Method Sets](example2/example2.go) ([Go Playground](https://play.golang.org/p/N50ocjUekf3))  
 [Address Of Value](example3/example3.go) ([Go Playground](https://play.golang.org/p/w981JSUcVZ2))  
-[Storage By Value](example4/example4.go) ([Go Playground](https://play.golang.org/p/UhE4ehFeuTy))  
+[Storage By Value](example4/example4.go) ([Go Playground](https://play.golang.org/p/6KE5b1EwovK))  
 [Type Assertions](example5/example5.go) ([Go Playground](https://play.golang.org/p/f47JMTj2eId))  
 [Conditional Type Assertions](example6/example6.go) ([Go Playground](https://play.golang.org/p/9fYc5RyyvVG))  
 [The Empty Interface and Type Switches](example7/example7.go) ([Go Playground](https://play.golang.org/p/iyDfKCIQ4S9))  

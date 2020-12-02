@@ -4,19 +4,14 @@
 
 ### Ultimate Go
 
-The Advanced Ultimate Go class is designed to focus on digging deep into the language to understand the internals that matter and the semantics. The course is about if performance matters then these things matter. This is presented from focusing on code readability at a micro level to full application architecture and development.
-
-We will talk about semantics, guidelines, mechanical sympathy and data oriented design. We are going to talk about package oriented design and how to structure your Go projects for the long term.
+This class teaches how to write better, more idiomatic and performant code in Go with a focus on micro-level engineering decisions  At the very beginning of class, the instructor will focus on Go internals that are critical to understanding the core tradeoffs the language makes on readability, simplicity and performance. The class builds layers of foundational knowledge that will give you a deeper understanding into data semantics, decoupling, concurrency and tooling. Perfect for developers just starting out or developers with years of Go experience. Everyone will be writing better code after this class.
 
 [Ultimate Go](courses/go/README.md)
 
 ### Ultimate Service
 
-The Ultimate Service is a 3 day class for any Go developer who wishes to learn how to build production ready and well tested web services in Go. This class provides an intensive, comprehensive and idiomatic view of building web services using community accepted idioms and practices.
+This class teaches how to build production-level services in Go with a focus on macro-level engineering decisions. From the beginning you will pair program with the instructor, walking through the design philosophies and guidelines used to engineer the code. With each new feature, you will learn more about the transition from programming to engineering and the points of refactoring required to write production level applications. Throughout the class, Go modules and Kubernetes will be a focus. Everyone will be making better engineering decisions after this class.
 
-The class goes beyond just the use of the http package and focuses on building CRUD based services with logging, observability and debugging. The class also teaches POD architectures, Docker and cloud deployment. We believe this class is perfect for anyone wishing to build production ready, scalable, fast, and highly concurrent web services in Go.
-
-[Service Training](https://github.com/ardanlabs/service-training)  
 [Service Starter Kit](https://github.com/ardanlabs/service)
 
 ### Ultimate AI / Machine Learning
@@ -51,6 +46,12 @@ Level up your programming skills by solving small practice problems. Then submit
 ### Gopher Puzzles
 
 [Dave Cheney Puzzles - 2016](http://talks.godoc.org/github.com/davecheney/presentations/gopher-puzzlers.slide#1)
+
+### John Arundel's Fundamentals
+
+This is a set of introductory exercises in Go programming, suitable for complete beginners. If you don't know anything about Go yet, or programming, but would like to learn, this is the right place!
+
+[For the Love of Go: Fundamentals](https://github.com/bitfield/ftl-fundamentals)
 
 ___
 All material is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/LICENSE-2.0).

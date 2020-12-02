@@ -203,6 +203,8 @@ _"It takes considerable knowledge just to realize the extent of your own ignoran
 
 _"If you don’t make mistakes, you’re not working on hard enough problems." - Frank Wilczek_
 
+_"Don’t cling to a mistake because you spent so much time making it." - Aubrey de Grey_
+
 ---
 
 ### Code Reviews
@@ -379,7 +381,7 @@ Micro-Optimizations are about squeezing every ounce of performance as possible. 
 
 ### Data-Oriented Design
 
-"Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorthims, are central to programming." - Rob Pike
+"Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming." - Rob Pike
 
 **Design Philosophy:**
 

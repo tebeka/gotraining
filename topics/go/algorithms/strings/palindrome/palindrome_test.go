@@ -1,9 +1,19 @@
-package strings_test
+/*
+	// This is the API you need to build for these tests. You will need to
+	// change the import path in this test to point to your code.
+
+	package palindrome
+
+	// Is checks if a string is a Palindrome.
+	func Is(input string) bool
+*/
+
+package palindrome_test
 
 import (
 	"testing"
 
-	strings "github.com/ardanlabs/gotraining/topics/go/algorithms/strings/palindrome"
+	"github.com/ardanlabs/gotraining/topics/go/algorithms/strings/palindrome"
 )
 
 const succeed = "\u2713"
@@ -29,7 +39,7 @@ func TestIsPalindrome(t *testing.T) {
 			tf := func(t *testing.T) {
 				t.Logf("\tTest %d:\tWhen checking the word %q.", testID, test.input)
 				{
-					got := strings.IsPalindrome(test.input)
+					got := palindrome.Is(test.input)
 					switch test.success {
 					case true:
 						if !got {
